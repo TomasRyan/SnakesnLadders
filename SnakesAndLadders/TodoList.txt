@@ -1,0 +1,8 @@
+Player:enums				|Tomás	|Made but may be implemented incorrectly	|
+dice:					|19/11	|						|
+square:(snakes and ladders)		|	|Made and implemented				|
+board:list of squares			|	|Made and implemented				|
+interface:				|	|						|
+main:					|	|makes a game board, scrambles it too		|	
+gameLoop:				|	|
+
