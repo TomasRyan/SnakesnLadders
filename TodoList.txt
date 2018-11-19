@@ -1,0 +1,8 @@
+Player:enums
+dice:
+square:(snakes and ladders)
+board:list of squares
+interface:
+main:
+gameLoop:
+
