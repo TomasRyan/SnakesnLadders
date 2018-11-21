@@ -54,6 +54,10 @@ public class SnakesAndLadders {
        for(BoardSquare g : gameBoard) {
            System.out.println(g.getSquareType());
        }
+       Player p1 = new Player("Tomas", 0);
+       System.out.println(p1.getPosition());
+       p1.AddMovement(5);
+       System.out.println(p1.getPosition());
     }
     
 }
