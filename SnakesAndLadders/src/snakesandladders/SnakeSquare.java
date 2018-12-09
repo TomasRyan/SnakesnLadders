@@ -23,4 +23,7 @@ public class SnakeSquare extends BoardSquare {
     public int getPairNumber() {
         return this.connectedSquare;
     }
+    public boolean GetFirst() {
+        return this.firstInPair;
+    }
 }
