@@ -17,7 +17,12 @@ public class LadderSquare extends BoardSquare{
         this.connectedSquare = s;
         this.squareType = "Ladder";
     }
+  
     public int getPairNumber() {
         return this.connectedSquare;
+    }
+    
+    public boolean GetFirst() {
+        return this.firstInPair;
     }
 }

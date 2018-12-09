@@ -10,8 +10,8 @@ package snakesandladders;
  * @author Tomas
  * 
  */
-public class BoardSquare {
-    String squareType;
+public class BoardSquare implements Board{
+    public String squareType;
     public BoardSquare() {
         this.squareType = "Plain";
     }
@@ -20,5 +20,12 @@ public class BoardSquare {
  */
     public String getSquareType() {
         return this.squareType;
+    }
+
+    public int getPairNumber() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    public boolean GetFirst() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
